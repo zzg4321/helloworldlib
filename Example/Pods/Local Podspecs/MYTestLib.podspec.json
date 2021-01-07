@@ -1,0 +1,22 @@
+{
+  "name": "MYTestLib",
+  "version": "0.1.0",
+  "summary": "A short description of MYTestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zzg4321/MYTestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zzg4321": "zzg4321@126.com"
+  },
+  "source": {
+    "git": "https://github.com/zzg4321/MYTestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MYTestLib/Classes/**/*"
+}
