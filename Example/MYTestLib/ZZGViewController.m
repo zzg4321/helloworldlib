@@ -7,7 +7,7 @@
 //
 
 #import "ZZGViewController.h"
-
+#import "GameEngineCocos.h"
 @interface ZZGViewController ()
 
 @end
@@ -18,6 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+//    float scale = [[UIScreen mainScreen] scale];
+//    CGRect bounds = [[UIScreen mainScreen] bounds];
+    
+    self.view = [[GameEngineCocos getInstance]getGameView];
+    self.view.backgroundColor = [UIColor redColor];
+//    [self.view addSubview:[[GameEngineCocos getInstance]getGameView]];
+   
 }
 
 - (void)didReceiveMemoryWarning

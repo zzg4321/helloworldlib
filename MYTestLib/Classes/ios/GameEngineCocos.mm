@@ -16,16 +16,16 @@ static GameEngineCocos *mInstace = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         mInstace = [[super allocWithZone:NULL] init];
-        [mInstace initSDKWrapper];
+        [mInstace startGame];
     });
     return mInstace;
 }
 
-- (BOOL)startGame: {
+- (BOOL)startGame{
     // Add the view controller's view to the window and display.
     
     // cocos2d application instance
-    app = new AppDelegate(400,400);
+    app = new AppDelegate(800,800);
     app->setMultitouch(false);
     
     
@@ -39,11 +39,11 @@ static GameEngineCocos *mInstace = nil;
 {
     
 }
-- (void)setGameViewFrame:(CGRect)frame
+- (void)setGameViewSize:(int)width height:(int)height
 {
-    
+    app->updateViewSize(width,height);
 }
-- (UIView*)getGameView()
+- (UIView*)getGameView
 {
     return (__bridge CCEAGLView *)cocos2d::Application::getInstance()->getView();
 }

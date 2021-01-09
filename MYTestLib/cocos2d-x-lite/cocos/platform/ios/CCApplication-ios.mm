@@ -504,7 +504,8 @@ void Application::createView(const std::string& /*name*/, int width, int height)
                                      numberOfSamples: multisamplingCount];
     
     [eaglView setMultipleTouchEnabled:_multiTouch];
-    
+    eaglView.backgroundColor = [UIColor clearColor];
+    eaglView.opaque = NO;
     [eaglView retain];
     _view = eaglView;
 }
