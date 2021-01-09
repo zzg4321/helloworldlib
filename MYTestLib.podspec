@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.private_header_files = 'MYTestLib/Classes/cocos2d-x-lite/*.h',
   s.source_files = 'MYTestLib/Classes/**/*'
   s.libraries = 'icucore','iconv','sqlite3','z'
    s.resource_bundles = {
