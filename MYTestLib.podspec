@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYTestLib'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'test lib'
 
 # This description is used to generate tags and improve search results.
@@ -29,14 +29,14 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.private_header_files = 'MYTestLib/Classes/cocos2d-x-lite/*.h',
+  s.private_header_files = 'MYTestLib/Classes/cocos2d-x-lite/*.h','MYTestLib/Classes/cocos2d-x-lite/2d/*.h','MYTestLib/Classes/cocos2d-x-lite/base/*.h','MYTestLib/Classes/cocos2d-x-lite/platform/*.h','MYTestLib/Classes/cocos2d-x-lite/platform/ios/*.h','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_module_register.hpp','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_global.h','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/jswrapper/SeApi.h','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/event/EventDispatcher.h','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_classtype.hpp'
   s.source_files = 'MYTestLib/Classes/**/*'
   s.libraries = 'icucore','iconv','sqlite3','z'
    s.resource_bundles = {
      'MYTestLib' => ['MYTestLib/Assets/*.js','MYTestLib/Assets/src/*.js','MYTestLib/Assets/jsb-adapter/*.js']
    }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'MYTestLib/Classes/include/*.h'
    s.frameworks = 'UIKit', 'MapKit' ,'CoreMedia','AVKit','WebKit','SystemConfiguration','JavaScriptCore','GameController','SystemConfiguration','MobileCoreServices','CoreFoundation','CFNetwork','CoreText','Security','CoreMotion','QuartzCore','OpenGLES','OpenAL','AudioToolbox','AVFoundation','Foundation','CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

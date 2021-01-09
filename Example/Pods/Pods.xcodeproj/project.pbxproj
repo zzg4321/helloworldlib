@@ -32,8 +32,6 @@
 		0519CC3A25A6DAB800EC4BC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0519CC3925A6DAB800EC4BC0 /* UIKit.framework */; };
 		0519CC3C25A6DAC600EC4BC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0519CC3B25A6DAC500EC4BC0 /* CoreGraphics.framework */; };
 		0519CC4525A6DF2900EC4BC0 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0519CC4125A6DF2800EC4BC0 /* AppDelegate.h */; };
-		0519CC4625A6DF2900EC4BC0 /* jsb_module_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0519CC4225A6DF2800EC4BC0 /* jsb_module_register.cpp */; };
-		0519CC4725A6DF2900EC4BC0 /* NativeConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0519CC4325A6DF2800EC4BC0 /* NativeConfig.h */; };
 		0519CC4825A6DF2900EC4BC0 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0519CC4425A6DF2800EC4BC0 /* AppDelegate.cpp */; };
 		0519CC5E25A7093B00EC4BC0 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0519CC5D25A7093B00EC4BC0 /* libicucore.A.tbd */; };
 		0519CC6725A7098000EC4BC0 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0519CC1B25A6DA0D00EC4BC0 /* libiconv.tbd */; };
@@ -142,8 +140,6 @@
 		0519CC3925A6DAB800EC4BC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0519CC3B25A6DAC500EC4BC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0519CC4125A6DF2800EC4BC0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0519CC4225A6DF2800EC4BC0 /* jsb_module_register.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_module_register.cpp; sourceTree = "<group>"; };
-		0519CC4325A6DF2800EC4BC0 /* NativeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeConfig.h; sourceTree = "<group>"; };
 		0519CC4425A6DF2800EC4BC0 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		0519CC5D25A7093B00EC4BC0 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
 		0519CC7225A70E7B00EC4BC0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -299,8 +295,6 @@
 			isa = PBXGroup;
 			children = (
 				0519CC4125A6DF2800EC4BC0 /* AppDelegate.h */,
-				0519CC4225A6DF2800EC4BC0 /* jsb_module_register.cpp */,
-				0519CC4325A6DF2800EC4BC0 /* NativeConfig.h */,
 				0519CC4425A6DF2800EC4BC0 /* AppDelegate.cpp */,
 			);
 			name = cocos;
@@ -570,7 +564,6 @@
 				0519CCA525A82A0F00EC4BC0 /* GameEngineCocos.h in Headers */,
 				0519CC4525A6DF2900EC4BC0 /* AppDelegate.h in Headers */,
 				0519CCAB25A82C6200EC4BC0 /* GameEngineDelegate.h in Headers */,
-				0519CC4725A6DF2900EC4BC0 /* NativeConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,7 +748,6 @@
 				0519CC4825A6DF2900EC4BC0 /* AppDelegate.cpp in Sources */,
 				0B4EAB83960008021AEFBC5F982E44D2 /* MYTestLib-dummy.m in Sources */,
 				1A4E8B9F2B922C3E52ED237F69906794 /* GameEngineCocos.mm in Sources */,
-				0519CC4625A6DF2900EC4BC0 /* jsb_module_register.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
