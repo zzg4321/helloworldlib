@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYTestLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'test lib'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MYTestLib/Classes/**/*'
-  s.libraries = 'icucore.A','iconv','sqlite3','z'
+  s.libraries = 'icucore','iconv','sqlite3','z'
    s.resource_bundles = {
      'MYTestLib' => ['MYTestLib/Assets/*.js','MYTestLib/Assets/src/*.js','MYTestLib/Assets/jsb-adapter/*.js']
    }
