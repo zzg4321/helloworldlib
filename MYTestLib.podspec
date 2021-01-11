@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYTestLib'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'test lib'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.private_header_files = 'MYTestLib/Classes/cocos2d-x-lite/*.h','MYTestLib/Classes/cocos2d-x-lite/2d/*.h','MYTestLib/Classes/cocos2d-x-lite/base/*.h','MYTestLib/Classes/cocos2d-x-lite/platform/*.h','MYTestLib/Classes/cocos2d-x-lite/platform/ios/*.h','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_module_register.hpp','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_global.h','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/jswrapper/SeApi.h','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/event/EventDispatcher.h','MYTestLib/Classes/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_classtype.hpp'
+  s.private_header_files = 'MYTestLib/cocos2d-x-lite/*.h','MYTestLib/cocos2d-x-lite/2d/*.h','MYTestLib/cocos2d-x-lite/base/*.h','MYTestLib/cocos2d-x-lite/platform/*.h','MYTestLib/cocos2d-x-lite/platform/ios/*.h','MYTestLib/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_module_register.hpp','MYTestLib/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_global.h','MYTestLib/cocos2d-x-lite/cocos/scripting/js-bindings/jswrapper/SeApi.h','MYTestLib/cocos2d-x-lite/cocos/scripting/js-bindings/event/EventDispatcher.h','MYTestLib/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_classtype.hpp'
   s.source_files = 'MYTestLib/Classes/**/*'
   s.libraries = 'icucore','iconv','sqlite3','z'
    s.resource_bundles = {
