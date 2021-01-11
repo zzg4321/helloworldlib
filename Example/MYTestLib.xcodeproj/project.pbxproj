@@ -260,6 +260,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zzg4321;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = BGNBH23A3D;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -529,6 +532,8 @@
 			baseConfigurationReference = BCDBEEFF6655FB2FA1D4321F /* Pods-MYTestLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BGNBH23A3D;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MYTestLib/MYTestLib-Prefix.pch";
 				INFOPLIST_FILE = "MYTestLib/MYTestLib-Info.plist";
@@ -536,7 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../MYTestLib/Classes/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../MYTestLib/Classes/include $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/platform/ios $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/plugin/jsbindings/auto $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/plugin/jsbindings/manual $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/ios/include $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/ios/include/spidermonkey $(SRCROOT)/../../MYTestLib/cocos2d-x-lite $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/base $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/physics $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/math/kazmath $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/2d $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/gui $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/network $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/audio/include $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/editor-support $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/extensions $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/sources $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/chipmunk/include/chipmunk $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/mac/include/v8 $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/scripting/js-bindings/auto $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/scripting/js-bindings/manual $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/renderer";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -546,6 +551,8 @@
 			baseConfigurationReference = 1E5F91907F7B758C4B80F90B /* Pods-MYTestLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BGNBH23A3D;
+				ENABLE_BITCODE = NO;
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/MYTestLib\"",
@@ -557,7 +564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../MYTestLib/Classes/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../MYTestLib/Classes/include $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/platform/ios $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/plugin/jsbindings/auto $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/plugin/jsbindings/manual $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/ios/include $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/ios/include/spidermonkey $(SRCROOT)/../../MYTestLib/cocos2d-x-lite $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/base $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/physics $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/math/kazmath $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/2d $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/gui $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/network $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/audio/include $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/editor-support $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/extensions $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/sources $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/chipmunk/include/chipmunk $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/external/mac/include/v8 $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/scripting/js-bindings/auto $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/scripting/js-bindings/manual $(SRCROOT)/../../MYTestLib/cocos2d-x-lite/cocos/renderer";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
