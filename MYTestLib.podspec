@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.private_header_files = 'Pod/cocos2d-x-lite/*.h','MYTestLib/cocos2d-x-lite/2d/*.h','Pod/cocos2d-x-lite/base/*.h','Pod/cocos2d-x-lite/platform/*.h','Pod/cocos2d-x-lite/platform/ios/*.h','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_module_register.hpp','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_global.h','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/jswrapper/SeApi.h','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/event/EventDispatcher.h','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_classtype.hpp'
+#  s.private_header_files = 'Pod/cocos2d-x-lite/*.h','MYTestLib/cocos2d-x-lite/2d/*.h','Pod/cocos2d-x-lite/base/*.h','Pod/cocos2d-x-lite/platform/*.h','Pod/cocos2d-x-lite/platform/ios/*.h','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_module_register.hpp','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_global.h','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/jswrapper/SeApi.h','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/event/EventDispatcher.h','Pod/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_classtype.hpp'
   s.source_files = 'MYTestLib/Classes/**/*'
   s.libraries = 'icucore','iconv','sqlite3','z'
    s.resource_bundles = {
