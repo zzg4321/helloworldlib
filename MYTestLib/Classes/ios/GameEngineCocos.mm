@@ -1,7 +1,7 @@
 #import "GameEngineCocos.h"
-#import "cocos2d.h"
+#import "cocos2d-x-lite/cocos/cocos2d.h"
 #import "AppDelegate.h"
-#import "platform/ios/CCEAGLView-ios.h"
+#import "cocos2d-x-lite/cocos/platform/ios/CCEAGLView-ios.h"
 
 using namespace cocos2d;
 
