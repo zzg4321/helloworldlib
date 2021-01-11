@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYTestLib'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'test lib'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
      'MYTestLib' => ['MYTestLib/Assets/*.js','MYTestLib/Assets/src/*.js','MYTestLib/Assets/jsb-adapter/*.js']
    }
 
-   s.public_header_files = 'Pod/Classes/include/*.h'
+   s.public_header_files = 'MYTestLib/Classes/include/*.h'
    s.frameworks = 'UIKit', 'MapKit' ,'CoreMedia','AVKit','WebKit','SystemConfiguration','JavaScriptCore','GameController','SystemConfiguration','MobileCoreServices','CoreFoundation','CFNetwork','CoreText','Security','CoreMotion','QuartzCore','OpenGLES','OpenAL','AudioToolbox','AVFoundation','Foundation','CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
