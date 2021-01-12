@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYTestLib'
-  s.version          = '0.1.21'
+  s.version          = '0.1.22'
   s.summary          = 'test lib'
 
 # This description is used to generate tags and improve search results.
@@ -62,13 +62,13 @@ TODO: Add long description of the pod here.
     end
     ss.subspec 'ui' do |sss|
       sss.subspec 'webview' do |ssss|
-        ssss.source_files='MYTestLib/cocos2d-x-lite/cocos/ui/webview/*.{h,mm}',
+        ssss.source_files='MYTestLib/cocos2d-x-lite/cocos/ui/webview/*.{h,mm}'
       end
       sss.subspec 'videoplayer' do |ssss|
-        ssss.source_files='MYTestLib/cocos2d-x-lite/cocos/ui/videoplayer/*.{h,mm}',
+        ssss.source_files='MYTestLib/cocos2d-x-lite/cocos/ui/videoplayer/*.{h,mm}'
       end
       sss.subspec 'edit-box' do |ssss|
-        ssss.source_files='MYTestLib/cocos2d-x-lite/cocos/ui/edit-box/*.{h,mm}',
+        ssss.source_files='MYTestLib/cocos2d-x-lite/cocos/ui/edit-box/*.{h,mm}'
       end
     end
     ss.subspec 'audio' do |sss|
@@ -121,7 +121,7 @@ TODO: Add long description of the pod here.
       sss.source_files='MYTestLib/cocos2d-x-lite/cocos/base/*.{h,cpp}'
     end
     ss.subspec 'renderer' do |sss|
-      sss.source_files='MYTestLib/cocos2d-x-lite/cocos/renderer/*.{h,cpp}',
+      sss.source_files='MYTestLib/cocos2d-x-lite/cocos/renderer/*.{h,cpp}'
       sss.subspec 'memop' do |ssss|
         ssss.source_files='MYTestLib/cocos2d-x-lite/cocos/renderer/memop/*.hpp'
       end
